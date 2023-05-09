@@ -1,4 +1,8 @@
 const inquirer = require('inquirer');
+const Db = require("./index")
+const connection= require('./connection')
+
+const db = new Db(connection);
 
 inquirer 
     .prompt([
@@ -14,6 +18,16 @@ inquirer
 
     .then((data) => {
         console.log(data);
-    })
 
-    module.exports = inquirer
+        switch(data.prompts) {
+            case "View all departments" :
+                db.viewAllDepartments()
+               
+                break;
+
+                
+              }  })
+            
+             
+    
+   

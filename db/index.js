@@ -6,7 +6,7 @@ class Db {
     }
 
 viewAllDepartments() {
-    return this.connection.promise().query('SELECT department.id, department.name FROM department')
+    return this.connection.promise().query('SELECT department.id, department.dept_name FROM department') 
     
 }  
 
@@ -20,3 +20,4 @@ viewAllEmployees() {
 }
 
 
+module.exports = Db

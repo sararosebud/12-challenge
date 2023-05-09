@@ -9,10 +9,11 @@ const connection = mysql.createConnection(
     // MySQL username,
     user: 'root',
     // TODO: Add MySQL password here
-    password: '123456',
-    database: 'department_db'
+    password: 'newpassword',
+    database: 'employees_db'
+   
   },
-  console.log(`Connected to the department_db database.`)
+  console.log(`Connected to the database.`)
 );
 
 connection.connect(function(error) {
