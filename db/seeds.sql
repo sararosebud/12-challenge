@@ -1,20 +1,25 @@
-INSERT INTO department (id, dept_name)
-VALUES ( 1,"Discovery"),
-       ( 2,"Design"),
-       ( 3,"WebDev"),
-       ( 4,"MobileDev"),
-       ( 5,"Testing"),
-       ( 6,"Backend"),
-       ( 7,"DevOps"),
+INSERT INTO department (dept_name)
+VALUES ( "Discovery"),
+       ( "Design"),
+       ( "WebDev"),
+       ( "MobileDev"),
+       ("Testing"),
+       ( "Backend"),
+       ( "DevOps");
 
-INSERT INTO role (id, title, salary, department_id)
-VALUES (01, "Software Developer", 100000, 3)       
+INSERT INTO role (title, salary, department_id)
+VALUES ("Software Developer", 100000, 1), 
+        ( "Web Designer", 100000, 2),  
+        ("Graphic Designer", 100000, 3),
+        ( "Someone else", 100000, 4),
+        ( "another one", 100000,5);
+         
 
 
-INSERT INTO employee (id, first_name, last_name)
-VALUES (001, "Arthur", "Miller"),
-       (002, "Chinua", "Achebe"),
-       (003, "Margaret", "Atwood"),
-       (004, "Gabriel", "Garcia Marquez"),
-       (005, "Simone", "de Beauvoir");
+INSERT INTO employee (first_name, last_name, department_id, role_id, manager_id)
+VALUES ("Arthur", "Miller", 1, 2, NULL),
+       ("Chinua", "Achebe", 2, 4, 1),
+       ("Margaret", "Atwood", 3, 5, NULL),
+       ("Gabriel", "Garcia Marquez", 5, 3, 3),
+       ("Simone", "de Beauvoir", 1, 1, NULL);
        
