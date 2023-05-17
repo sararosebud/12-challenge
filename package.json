@@ -10,7 +10,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ascii": "^1.0.0",
+    "ascii-art": "^2.8.5",
+    "ascii-art-table": "^1.0.1",
+    "ascii-text": "^0.1.0",
+    "asciiart-logo": "^0.2.7",
     "express-json": "^1.0.0",
+    "figlet": "^1.6.0",
     "mysql2": "^3.3.0",
     "urlencode": "^1.1.0"
   }
