@@ -19,7 +19,7 @@ Content Management System (CMS) built as a command-line application to manage a 
 
 ## Installation
 <a name="installation"></a>
-Clone this repository and open in a code editor like VS Code.  Run npm i in an integrated terminal of the root folder, to install all of the dependencies required for this app to run.  Watch the demo video for a runthrough of how to use this application. 
+Clone this repository and open in a code editor like VS Code.  Run npm i in an integrated terminal of the root folder, to install all of the dependencies required for this app to run.   
 
 ## Usage
 <a name="usage"></a>
@@ -34,6 +34,9 @@ Update an Employee: User is prompted to select an employee to update and their n
 
 ## Demo:
 <a name="demo"></a>
+Watch the [demo video](https://watch.screencastify.com/v/6G8PhsPZQqHZjGe0Tj3z) for a runthrough of how to use this application.
+![image](https://github.com/sararosebud/12-challenge/assets/113923132/c6e61493-289c-41bb-af4a-cd4939594712)
+
 
 ## Questions:
 <a name="questions"></a>
