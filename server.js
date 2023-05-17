@@ -1,5 +1,5 @@
-const prompts = require('./db/inquirer');
+const prompts = require('./inquirer');
 const connection = require('./db/connection');
-const Db = require('./db/index');
+const Db = require('./index');
 
 

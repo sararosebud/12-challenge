@@ -23,7 +23,7 @@ Clone this repository and open in a code editor like VS Code.  Run npm i in an i
 
 ## Usage
 <a name="usage"></a>
-Run node index.js command in terminal. In the command line, User will be presented with the following options: View all departments, View all roles, View all employees, Add a department, Add a role, Add an employee, and Update an employee role. User can choose from the list. Each option will present the following:
+Run npm start command in terminal. In the command line, User will be presented with the following options: View all departments, View all roles, View all employees, Add a department, Add a role, Add an employee, and Update an employee role. User can choose from the list. Each option will present the following:
 View All Departments: a formatted table showing department names and department ids
 View All Roles: a formatted table showing the job title, role id, the department that role belongs to, and the salary for that role
 View All Employees: a formatted table showing employee data, including employee ids, first names, last names, job titles, departments, salaries, and managers that the employees report to.
